@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RoundLayouts.iml" filepath="$PROJECT_DIR$/RoundLayouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roundlayout/roundlayout.iml" filepath="$PROJECT_DIR$/roundlayout/roundlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/roundlayouts.iml" filepath="$PROJECT_DIR$/samples/roundlayouts.iml" />
+    </modules>
+  </component>
+</project>
