@@ -1,9 +1,64 @@
 # KotlinRoundLayouts-Android
 
+Its a simple way to use layouts with rounded corners
+
+what you need to do is just Add to app level build.gradle
+
+     compile 'com.freeankit.roundlayouts:roundlayout:1.0.1'
+     
+If you are using maven, here is the dependency 
+    
+       <dependency>
+         <groupId>com.freeankit.roundlayouts</groupId>
+         <artifactId>roundlayout</artifactId>
+         <version>1.0.1</version>
+         <type>pom</type>
+       </dependency>
+
+
+Now add layout to your layout.xml
+
+     <com.freeankit.roundlayouts.RoundFrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                app:corner_radius="100dp">
+                // Views inside can be added here/.. see next example
+     </com.freeankit.roundlayouts.RoundFrameLayout>
+     
+     
+ Example
+ 
+    
+        <com.freeankit.roundlayouts.RoundFrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="8dp"
+            app:corner_radius="100dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/new_pic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/translucent"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Numbers"
+                android:textColor="@android:color/white" />
+        </com.freeankit.roundlayouts.RoundFrameLayout>
 
 
 
-
+And that's it. You are good to go.
 
 
 ### Contact - Let's connect to learn together
