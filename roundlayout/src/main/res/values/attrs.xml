@@ -13,4 +13,12 @@
     <declare-styleable name="RoundRelativeLayout">
         <attr name="corner_radius" />
     </declare-styleable>
+
+    <declare-styleable name="RoundedCornersView">
+        <attr name="corner_radius"/>
+        <attr name="corner_stroke_width" format="dimension"/>
+        <attr name="corner_stroke_color" format="color"/>
+    </declare-styleable>
+
+
 </resources>

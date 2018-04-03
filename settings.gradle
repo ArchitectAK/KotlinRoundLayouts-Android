@@ -1,1 +1,1 @@
-include ':samples', ':roundlayout'
+include ':samples', ':roundlayout', ':sample'
