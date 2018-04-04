@@ -63,7 +63,7 @@ And that's it. You are good to go.
 
  that's how it will look
  
- ![](https://github.com/AnkitDroidGit/KotlinRoundLayouts-Android/blob/master/art/screeshot.png)
+ <img src="https://github.com/AnkitDroidGit/KotlinRoundLayouts-Android/blob/master/art/screeshot.png" width="400" height="720">
 
 
 ### Contact - Let's connect to learn together
