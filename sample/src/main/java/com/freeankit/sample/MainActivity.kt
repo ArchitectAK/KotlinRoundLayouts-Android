@@ -13,18 +13,22 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun startConstraintActivity(view: View) {
-        startActivity(Intent(this@MainActivity, ExampleActivity::class.java))
+        startActivity(Intent(this@MainActivity, ExampleActivity::class.java)
+                .putExtra("round", "relative"))
     }
 
     fun startLinearActivity(view: View) {
-        startActivity(Intent(this@MainActivity, ExampleActivity::class.java))
+        startActivity(Intent(this@MainActivity, ExampleActivity::class.java)
+                .putExtra("round", "relative"))
     }
 
     fun startRelativeActivity(view: View) {
-        startActivity(Intent(this@MainActivity, ExampleActivity::class.java))
+        startActivity(Intent(this@MainActivity, ExampleActivity::class.java)
+                .putExtra("round", "relative"))
     }
 
     fun startFrameActivity(view: View) {
-        startActivity(Intent(this@MainActivity, ExampleActivity::class.java))
+        startActivity(Intent(this@MainActivity, ExampleActivity::class.java)
+                .putExtra("round", "frame"))
     }
 }

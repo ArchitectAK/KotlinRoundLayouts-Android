@@ -10,6 +10,10 @@ class ExampleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_round_framelayout)
+
+        if (intent.getStringExtra("round").equals("frame", true))
+            setContentView(R.layout.activity_round_framelayout)
+        else if (intent.getStringExtra("round").equals("relative", true))
+            setContentView(R.layout.activity_round_relativelayout)
     }
 }
