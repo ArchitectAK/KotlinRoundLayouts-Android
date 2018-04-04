@@ -1,66 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_gravity="center_vertical"
-    android:background="@android:color/darker_gray"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
 
-    <LinearLayout
-        android:gravity="center"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Please tap on the respetive button to see the example of different round layouts" />
 
-        <com.freeankit.roundlayouts.RoundFrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_margin="8dp"
-            app:corner_radius="100dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="startFrameActivity"
+        android:text="Round FrameLayout"
+        android:textAllCaps="false" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:scaleType="centerInside"
-                android:src="@drawable/new_pic" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="startFrameActivity" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:background="@color/translucent"
-                android:gravity="center"
-                android:padding="8dp"
-                android:text="Numbers"
-                android:textColor="@android:color/white" />
-        </com.freeankit.roundlayouts.RoundFrameLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="startFrameActivity" />
 
-        <com.freeankit.roundlayouts.RoundFrameLayout
-            android:layout_width="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:background="@android:color/background_dark"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:corner_radius="40dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="startFrameActivity" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:scaleType="centerInside"
-                android:src="@drawable/images_bike"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="startFrameActivity" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:background="@color/translucent"
-                android:gravity="center"
-                android:padding="8dp"
-                android:text="Bike"
-                android:textColor="@android:color/white" />
-        </com.freeankit.roundlayouts.RoundFrameLayout>
-    </LinearLayout>
-</ScrollView>
+</LinearLayout>
