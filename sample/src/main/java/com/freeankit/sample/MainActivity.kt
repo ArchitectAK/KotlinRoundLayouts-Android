@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     fun startLinearActivity(view: View) {
         startActivity(Intent(this@MainActivity, ExampleActivity::class.java)
-                .putExtra("round", "relative"))
+                .putExtra("round", "linear"))
     }
 
     fun startRelativeActivity(view: View) {

@@ -23,9 +23,8 @@
             <ImageView
                 android:id="@+id/image"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:scaleType="centerInside"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
                 android:src="@drawable/new_pic" />
 
             <TextView
@@ -36,7 +35,7 @@
                 android:background="@color/translucent"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Numbers"
+                android:text="RoundRelativeLayout"
                 android:textColor="@android:color/white" />
         </com.freeankit.roundlayouts.RoundRelativeLayout>
     </LinearLayout>

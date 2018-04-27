@@ -17,36 +17,31 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:onClick="startFrameActivity"
-        android:text="Round FrameLayout"
+        android:text="Round Frame Layout"
         android:textAllCaps="false" />
 
     <Button
-        android:textAllCaps="false"
-        android:text="Round RelativeLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:onClick="startRelativeActivity" />
+        android:onClick="startRelativeActivity"
+        android:text="Round Relative Layout"
+        android:textAllCaps="false" />
 
     <Button
-        android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:onClick="startFrameActivity" />
+        android:onClick="startLinearActivity"
+        android:text="Round Linear Layout"
+        android:textAllCaps="false" />
 
     <Button
-        android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:onClick="startFrameActivity" />
-
-    <Button
-        android:textAllCaps="false"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:onClick="startFrameActivity" />
+        android:onClick="startConstraintActivity"
+        android:text="Round Constraint Layout"
+        android:textAllCaps="false" />
 
 </LinearLayout>

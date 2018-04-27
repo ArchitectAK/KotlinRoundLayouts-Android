@@ -15,5 +15,7 @@ class ExampleActivity : AppCompatActivity() {
             setContentView(R.layout.activity_round_framelayout)
         else if (intent.getStringExtra("round").equals("relative", true))
             setContentView(R.layout.activity_round_relativelayout)
+        else if (intent.getStringExtra("round").equals("linear", true))
+            setContentView(R.layout.activity_round_linearlayout)
     }
 }

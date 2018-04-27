@@ -4,22 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
-    android:background="@android:color/darker_gray">
+    android:background="@android:color/darker_gray"
+    android:fillViewport="true">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical">
 
-        <com.freeankit.roundlayouts.RoundFrameLayout
+        <com.freeankit.roundlayouts.RoundLinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_gravity="center_vertical"
             android:layout_margin="8dp"
             app:corner_radius="100dp">
 
             <ImageView
+                android:id="@+id/image"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:scaleType="fitXY"
@@ -32,33 +35,35 @@
                 android:background="@color/translucent"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="RoundFrameLayout"
+                android:text="RoundLinearLayout"
                 android:textColor="@android:color/white" />
-        </com.freeankit.roundlayouts.RoundFrameLayout>
+        </com.freeankit.roundlayouts.RoundLinearLayout>
 
-        <com.freeankit.roundlayouts.RoundFrameLayout
+        <com.freeankit.roundlayouts.RoundLinearLayout
             android:layout_width="wrap_content"
+            android:orientation="horizontal"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_margin="8dp"
-            android:background="@android:color/background_dark"
-            app:corner_radius="40dp">
+            app:corner_radius="100dp">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:id="@+id/image_"
+                android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/background" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image"
                 android:layout_gravity="bottom"
                 android:background="@color/translucent"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="RoundFrameLayout"
+                android:text="Round Linear Layout"
                 android:textColor="@android:color/white" />
-        </com.freeankit.roundlayouts.RoundFrameLayout>
+        </com.freeankit.roundlayouts.RoundLinearLayout>
     </LinearLayout>
 </ScrollView>
