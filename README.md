@@ -63,9 +63,15 @@ And that's it. You are good to go.
 
  that's how it will look
  
-* `Linear Layout`
+* `RaoundFrameLayout`
  
- <img src="https://github.com/AnkitDroidGit/KotlinRoundLayouts-Android/blob/master/art/screeshot.png" width="400" height="720">
+ <img src="https://github.com/AnkitDroidGit/KotlinRoundLayouts-Android/blob/master/art/roundframe.png" width="400" height="720">
+ 
+* `RaoundRelativeLayout`
+ <img src="https://github.com/AnkitDroidGit/KotlinRoundLayouts-Android/blob/master/art/roundrelative.png" width="400" height="720">
+ 
+ * `RaoundLinearLayout`
+ <img src="https://github.com/AnkitDroidGit/KotlinRoundLayouts-Android/blob/master/art/roundlinear.png" width="400" height="720">
 
 
 ### Contact - Let's connect to learn together
